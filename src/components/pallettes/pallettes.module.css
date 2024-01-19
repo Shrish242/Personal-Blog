@@ -1,0 +1,76 @@
+.title{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    width: max-content;
+}
+
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.category{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-transform: capitalize;
+    width: 13%;
+    height: 50px;
+    justify-content: center;
+    border-radius: 10px;
+}
+.category.Projects{
+    background-color: rgb(180, 180, 125);
+}
+
+.category.Blog{
+    background-color: rgb(123, 166, 190);
+}
+.category.Social{
+    background-color: rgb(206, 134, 202);
+}
+
+.category.culture{
+    background-color: rgb(118, 163, 189);
+}
+
+.category.coding{
+    background-color: rgb(218, 139, 125);
+}
+
+@media screen and (max-width: 1280px){
+    /* .categories{
+        justify-content: center;
+    } */
+    .category{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    /* .categories{
+        justify-content: center;
+    } */
+    .category{
+        width: 25%;
+    }
+}
+@media screen and (max-width: 768px){
+    .category{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 640px){
+    /* .categories{
+        justify-content: center;
+    } */
+    .category{
+        width: 90%;
+    }
+}

@@ -1,0 +1,70 @@
+.container {
+    flex: 1;
+    padding: 20px;
+    flex-direction: column;
+  }
+  
+  .title {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  
+  .skills {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    margin-bottom: 5px;
+    gap: 50px;
+  }
+  
+  /* Add styles for individual logos */
+  /* Example: */
+  .react,
+  .js,
+  .c,
+  .cpp,
+  .next,
+  .node,
+  .tailwind {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    width: 65px;
+    height: 65px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .css{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    width: 85px;
+    height: 75px;
+    transition: all 0.3s ease-in-out;
+  }
+  .figma{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    width: 83px;
+    height: 75px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .react:hover,
+  .css:hover,
+  .js:hover,
+  .c:hover,
+  .cpp:hover,
+  .next:hover,
+  .figma:hover,
+  .node:hover,
+  .tailwind:hover {
+    transform: scale(1.1);
+    background-color: lightgray; /* Change the hover background color as desired */
+  }
+  
