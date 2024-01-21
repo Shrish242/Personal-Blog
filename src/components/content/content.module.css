@@ -61,3 +61,17 @@
     text-decoration: underline;
     cursor: pointer;
   }
+
+  @media screen and (max-width: 780px){
+    .imagebox{
+      display: none;
+    }
+  }
+  @media screen and (max-width: 660px){
+    .text{
+      font-size: 25px;
+    }
+    .desc{
+      font-size: 15px;
+    }
+  }

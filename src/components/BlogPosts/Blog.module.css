@@ -105,3 +105,54 @@
     margin-top: 25px;
     margin-left: 19px;
 }
+
+@media screen and (max-width: 1280px) {
+    .subplates1{
+        width: 340px;
+    }
+    .subdesc{
+        font-size: 10px;
+    }
+    .subplates{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .platesContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .column1{
+        align-items: center;
+    }
+    .column{
+        align-items: center;
+    }
+}
+@media screen and (max-width: 605px){
+    .subplates1{
+        width: 300px;
+    }
+    .subplates{
+        width: 400px;
+    }
+    .subdesc{
+        font-size: 10px;
+    }
+    .subundesc{
+        font-size: 8px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .subtitle{
+        font-size: 15px;
+    }
+}
+  

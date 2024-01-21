@@ -13,12 +13,12 @@ const Blog = () => {
     <div className={styles.container}>
         <div className={styles.title}>
             <p>Blog Posts</p>
-            <div className={styles.platesContainer}>
+      <div className={styles.platesContainer}>
               
         {/* First set of plates */}
         <div className={styles.column}>
         <p className={styles.subtitle}>Recent Blog Posts</p>
-          <div className={styles.subplates}>
+        <Link href='/Discordproject'><div className={styles.subplates}>
             <Image src={js} alt='' className={styles.js} />
             <p className={styles.subdesc}>
               Discord Bot with the theme of the game as a pirate where it stores
@@ -26,6 +26,7 @@ const Blog = () => {
               JavaScript, Mongodb, Postman
             </p>
           </div>
+          </Link>
           <Link href="/JSblog"><div className={styles.subplates}>
             <Image src={Reactlogo} alt='' className={styles.Reactlogo} />
             <p className={styles.subdesc}>
@@ -35,7 +36,7 @@ const Blog = () => {
             </p>
           </div>
           </Link>
-          <Link href='/Discordproject'><div className={styles.subplates}>
+          <Link href='/Cproject'></Link><div className={styles.subplates}>
             <Image src={C} alt='' className={styles.C} />
             <p className={styles.subdesc}>
               It is a restaurant billing system that saves the bill of the
@@ -43,7 +44,7 @@ const Blog = () => {
               was a simple system developed using C language.
             </p>
           </div>
-          </Link>
+          <Link href='/Blogpage'>
           <div className={styles.subplates}>
             <Image src={Next} alt='' className={styles.next} />
             <p className={styles.subdesc}>
@@ -52,6 +53,7 @@ const Blog = () => {
               which will be used as a framework for upcoming projects
             </p>
           </div>
+          </Link>
         </div>
 
         {/* Second set of empty plates */}
