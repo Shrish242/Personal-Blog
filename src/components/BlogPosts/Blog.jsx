@@ -6,6 +6,7 @@ import C from '../Image/c.png';
 import Next from '../Image/nextjs.svg';
 import python from '../Image/python.png'
 import js from '../Image/js.png'
+import Link from 'next/link';
 
 const Blog = () => {
   return (
@@ -25,7 +26,7 @@ const Blog = () => {
               JavaScript, Mongodb, Postman
             </p>
           </div>
-          <div className={styles.subplates}>
+          <Link href="/JSblog"><div className={styles.subplates}>
             <Image src={Reactlogo} alt='' className={styles.Reactlogo} />
             <p className={styles.subdesc}>
               It is a website created using React which includes technology of
@@ -33,7 +34,8 @@ const Blog = () => {
               different fields.
             </p>
           </div>
-          <div className={styles.subplates}>
+          </Link>
+          <Link href='/Discordproject'><div className={styles.subplates}>
             <Image src={C} alt='' className={styles.C} />
             <p className={styles.subdesc}>
               It is a restaurant billing system that saves the bill of the
@@ -41,6 +43,7 @@ const Blog = () => {
               was a simple system developed using C language.
             </p>
           </div>
+          </Link>
           <div className={styles.subplates}>
             <Image src={Next} alt='' className={styles.next} />
             <p className={styles.subdesc}>
