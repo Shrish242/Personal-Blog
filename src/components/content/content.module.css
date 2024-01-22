@@ -75,3 +75,23 @@
       font-size: 15px;
     }
   }
+  @media screen and (max-width: 500px){
+    .text{
+      font-size: 20px;
+    }
+    .desc{
+      font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 480px){
+    .text{
+      font-size: 15px;
+      width: 400px;
+    }
+    .desc{
+      font-size: 7px;
+    }
+    .container{
+      width: 100%;
+    }
+  }
