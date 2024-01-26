@@ -83,12 +83,13 @@ a{
 }
 @media screen and (max-width: 470px) {
   .wrapper {
-    max-width: 0vw; /* This line seems unnecessary, consider removing */
+    max-width: 100vw; /* This line seems unnecessary, consider removing */
+    margin-left: 10px;
   }
 
   .wrapper {
-    margin-left: 0px;
-    padding-left: 0px;
+    margin-left: 30px;
+    padding-left: 10px;
   }
 }
 

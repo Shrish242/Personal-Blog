@@ -51,6 +51,7 @@
     } */
     .category{
         width: 20%;
+        font-size: medium;
     }
 }
 
@@ -60,11 +61,13 @@
     } */
     .category{
         width: 25%;
+        font-size: 12px;
     }
 }
 @media screen and (max-width: 768px){
     .category{
         width: 45%;
+        font-size: 12px;
     }
 }
 @media screen and (max-width: 640px){
@@ -73,5 +76,6 @@
     } */
     .category{
         width: 20%;
+        font-size: 12px;
     }
 }
