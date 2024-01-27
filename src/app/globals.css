@@ -84,11 +84,11 @@ a{
 @media screen and (max-width: 470px) {
   .wrapper {
     max-width: 100vw; /* This line seems unnecessary, consider removing */
-    margin-left: 10px;
+    margin-left: 2px;
   }
 
   .wrapper {
-    margin-left: 30px;
+    margin-left: 10px;
     padding-left: 10px;
   }
 }
