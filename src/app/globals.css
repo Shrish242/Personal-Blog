@@ -90,6 +90,7 @@ a{
   .wrapper {
     margin-left: 10px;
     padding-left: 10px;
+    gap:10;
   }
 }
 
