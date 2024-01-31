@@ -5,7 +5,7 @@ import Reactlogo from '../Image/react.png';
 import C from '../Image/c.png';
 import Next from '../Image/nextjs.svg';
 import python from '../Image/python.png'
-import js from '../Image/js.png'
+import js from '../Image/Js.png'
 import Link from 'next/link';
 
 const Blog = () => {
