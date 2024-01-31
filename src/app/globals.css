@@ -1,8 +1,8 @@
 :root{
-  --bg:#0f172a;
-  --textcolor: #ffffff;
-  --softbg : #1e293b;
-  --softtextcolor: #ffffff;
+  --bg: #ffffff;
+  --textcolor: #000000;
+  --softbg : #f5f5f5;
+  --softtextcolor: #000000;
 }
 *{
   margin: 0;
@@ -11,23 +11,18 @@
   font-family: 'Roboto', sans-serif;
 }
 
-body{
-  max-width: 100%;
-  overflow-x: hidden;
-}
-
 .dark{
-  --bg: #ffffff;
-  --textcolor: #000000;
-  --softbg : #f5f5f5;
-  --softtextcolor: #000000;
-}
-
-.light{
   --bg:#0f172a;
   --textcolor: #ffffff;
   --softbg : #1e293b;
   --softtextcolor: #ffffff;
+}
+
+.light{
+  --bg: #ffffff;
+  --textcolor: #000000;
+  --softbg : #f5f5f5;
+  --softtextcolor: #000000;
 }
 
 a{
@@ -36,7 +31,6 @@ a{
 }
 
 .container{
-  min-width: 100vh;
   background-color: var(--bg);
   color: var(--textcolor);
 }

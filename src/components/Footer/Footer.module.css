@@ -69,14 +69,14 @@
         align-items: center;
     }
     .links{
-        justify-content: center;
+        display: none;
     }
     .list{
         justify-content: center;
         align-items: center;
     }
     .socials{
-        justify-content: center;
+        display: none;
     }
     .listtittle{
         font-size: 25px;

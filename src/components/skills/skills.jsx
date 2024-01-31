@@ -13,7 +13,7 @@ import node from '../Image/node.png';
 
 const Skills = () => {
   return (
-    <div className={styles.container}>
+    <div id="skillSection" className={styles.container}>
       <p className={styles.title}>Skills</p>
       <div className={styles.skills}>
         <div className={styles.row}>

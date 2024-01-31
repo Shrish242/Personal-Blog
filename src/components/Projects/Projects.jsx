@@ -9,7 +9,7 @@ import python from '../Image/python.png'
 
 const Projects = () => {
   return (
-    <div className={styles.container}>
+    <div id="projectsSection" className={styles.container}>
       <div className={styles.title}>Projects</div>
       <div className={styles.platesContainer}>
         {/* First set of plates */}

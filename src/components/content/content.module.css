@@ -31,9 +31,13 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-right: 40px;
     margin-top: 20px;
-    width: 70%;
   }
-  
+  .title{
+    font-size: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-right: 40px;
+    margin-top: 20px;
+  }
   .react,
   .js,
   .c,
@@ -89,9 +93,10 @@
       width: 400px;
     }
     .desc{
-      font-size: 7px;
+      font-size: 10px;
     }
-    .container{
-      width: 100%;
+    .title{
+      font-size: 18px;
+
     }
   }

@@ -13,9 +13,9 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <div className={styles.social}>
-        <Image src={Facebook} alt='facebook' width={24} height={24}/>
-        <Image src={Instagram} alt='Instagram' width={24} height={24}/>
-        <Image src={X} alt='X' width={25} height={24}/>
+      <Link href="https://www.facebook.com/shrish.dhakal.35?mibextid=ZbWKwL"><Image src={Facebook} alt='facebook' width={24} height={24}/></Link>
+      <Link href="https://www.instagram.com/_srs242?igsh=OXpmNmZjemhscTE="> <Image src={Instagram} alt='Instagram' width={24} height={24}/></Link>
+      <Link href="https://x.com/ShrishDhakal?t=aHOv8ZBQLiMwLze5d8EWMw&s=09">  <Image src={X} alt='X' width={25} height={24}/></Link>
         <Image src={Discord} alt='Discord' width={26} height={24}/>
 
       </div>

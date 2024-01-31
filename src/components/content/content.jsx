@@ -17,7 +17,7 @@ const Content = () => {
   return (
     <div className={styles.container}>
       <div className={styles.text}>
-        Welcome to the domain of Shrish.
+        <p className={styles.title}>Welcome to the domain of Shrish.</p>
         <p className={styles.desc}>
           Welcome to my side of the Internet. Computer enthusiast with the eagerness to learn everything possible. This site mainly focuses on my skills and how I learned them and how I am using them.
         </p>

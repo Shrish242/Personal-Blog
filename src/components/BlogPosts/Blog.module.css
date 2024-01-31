@@ -3,12 +3,14 @@
     font-size: 30px;
     font-weight: 500;
     margin-top: 20px;
+    width: max-content;
 }
 .subtitle{
     font-size: 18px;
     font-weight: 500;
     margin-top: 20px;
     text-decoration: underline;
+    width: max-content;
 }
 .container {
     gap: 10px;

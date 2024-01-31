@@ -11,7 +11,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 10px;
+    gap: 3px;
     margin-bottom: 30px;
     width: auto;
 }
@@ -19,7 +19,6 @@
 .category{
     display: flex;
     align-items: center;
-    gap: 10px;
     text-transform: capitalize;
     width: 8%;
     height: 50px;
@@ -28,21 +27,26 @@
 }
 .category.Projects{
     background-color: rgb(180, 180, 125);
+    border: 0cap;
 }
 
 .category.Blog{
     background-color: rgb(123, 166, 190);
+    border: 0cap;
 }
 .category.Social{
     background-color: rgb(206, 134, 202);
+    border: 0cap;
 }
 
-.category.culture{
+.category.Culture{
     background-color: rgb(118, 163, 189);
+    border: 0cap;
 }
 
-.category.coding{
+.category.Coding{
     background-color: rgb(218, 139, 125);
+    border: 0cap;
 }
 
 @media screen and (max-width: 1280px){
