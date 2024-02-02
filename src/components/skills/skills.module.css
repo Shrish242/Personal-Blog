@@ -102,23 +102,8 @@
     transition: all 0.3s ease-in-out;
   }
   .container{
-    padding: 0px;
-    justify-content: flex-start;
-  }
-  }
-  
-  /* Adjust styles for smaller screens */
-@media screen and (max-width: 600px) {
-  .react,
-  .js,
-  .c,
-  .cpp,
-  .next,
-  .node,
-  .tailwind,
-  .css,
-  .figma {
-    width: 45px;
-    height: 45px;
-  }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+  }

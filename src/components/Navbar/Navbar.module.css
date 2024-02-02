@@ -64,4 +64,9 @@
     .links{
         margin-left: 30%;
     }
+    .logo{
+        margin-right: 30px;
+        width: max-content;
+        font-size: 18px;
+    }
 }

@@ -21,9 +21,6 @@ const Authlinks = () => {
        <Link href='/' >Homepage</Link>
         <Link href='/about' >About</Link>
         <Link href='/contact'>Contact</Link>  
-        {status === "notauthenticated" ? (<Link href='/login'>Login</Link>) : 
-    (<><Link href='/write'>Write</Link>
-    <span className={styles.link}>Logout</span></>) }
       </div>
     )
 

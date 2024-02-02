@@ -13,6 +13,7 @@ const Blog = () => {
     <div id="blogSection" className={styles.container}>
         <div className={styles.title}>
             <p>Blog Posts</p>
+            </div>
       <div className={styles.platesContainer}>
               
         {/* First set of plates */}
@@ -74,7 +75,7 @@ const Blog = () => {
           </div>
         </div>
       </div>
-        </div>
+     
     </div>
   )
 }

@@ -14,7 +14,7 @@ import node from '../Image/node.png';
 const Skills = () => {
   return (
     <div id="skillSection" className={styles.container}>
-      <p className={styles.title}>Skills</p>
+      <div className={styles.title}><p >Skills</p></div>
       <div className={styles.skills}>
         <div className={styles.row}>
           <Image src={csslogo} className={styles.css} alt='' />

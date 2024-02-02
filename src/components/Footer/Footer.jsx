@@ -17,9 +17,10 @@ const Footer = () => {
           <h1 className={styles.logotext}>Shrish Blog</h1>
         </div>
         <p className={styles.desc}>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. In  
-          aspernatur, iure eligendi laudantium vero! Reiciendis, amet! 
-          Amet eligendi eveniet facere molestiae dignissimos modi, at.
+          All the rights are reserved to Shrish Blog. This is a personal blog of Shrish Dhakal.
+          Anyone intending to copy the content of this blog should take permission from the owner.
+          <br />
+          ®2024 Shrish Blog
         </p>
         <div className={styles.socials}>
         <Image src={Facebook} alt='facebook' width={24} height={24}/>
